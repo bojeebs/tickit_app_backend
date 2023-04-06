@@ -1,1 +1,1 @@
-web: gunicorn tickit-ga.wsgi
+web: gunicorn tickit_django.wsgi:application
